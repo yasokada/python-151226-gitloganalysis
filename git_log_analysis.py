@@ -2,9 +2,12 @@
 
 from datetime import datetime as dt 
 from datetime import timedelta
+import os
 
 '''
-v0.1 2015/12/26
+v0.2 2015 Dec. 26
+	- call git command from this scrip
+v0.1 2015 Dec. 26
 	- add main routine
  	  + take two datetime difference
 	  + have two datetime
@@ -19,6 +22,8 @@ def calcElapsedTimeInMinutes(diff_sec):
 		return 0
 	else:
 		return diff_min
+
+os.system("git log --pretty=format:'%h %ad %s' --date=iso > tmp.log")
 
 fd = open("tmp.log")
 lines = fd.readlines()
