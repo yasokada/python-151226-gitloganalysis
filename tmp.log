@@ -1,0 +1,122 @@
+7e64dc5 2015-12-09 12:40:08 +0900 update version comment
+c37b62c 2015-12-09 12:39:18 +0900 add LF if str does not have
+57c205a 2015-12-09 07:11:53 +0900 comrelay() takes \r also as new line
+7c78970 2015-12-05 09:39:19 +0900 show concrete error message
+591b8c3 2015-12-05 09:34:00 +0900 avoid udp send error when the network is not available
+290838a 2015-12-03 12:33:31 +0900 add x access mode to Log/
+7981543 2015-12-03 07:15:59 +0900 WIP
+d72cea4 2015-12-03 07:12:48 +0900 utilLogger: chmod Log/ also
+7a31ed1 2015-12-03 07:07:48 +0900 utilLogger: add S_IWGRP also
+b07925f 2015-12-03 06:58:56 +0900 utilLogger: chmod of the file to make other writable
+10e8ace 2015-12-03 06:56:42 +0900 change access mode
+de4975e 2015-12-02 21:45:28 +0900 show os.uname
+1adab1f 2015-12-02 07:15:03 +0900 add todo
+d254200 2015-12-02 07:10:40 +0900 add todo
+bfed68f 2015-12-02 07:06:01 +0900 utilLogger: add msec to the timestamp
+82c8252 2015-12-02 06:59:07 +0900 Merge branch 'master' of https://github.com/yasokada/python-151113-lineMonitor
+2abdcab 2015-12-02 06:58:49 +0900 get current msec
+c0851be 2015-12-02 06:54:33 +0900 change prefix string from 1: to rcvd1, for csv handling
+d77d3cd 2015-12-01 21:40:16 +0900 add Log feature
+892f97b 2015-12-01 21:39:34 +0900 remove CRLF at the end of the line
+153ce73 2015-12-01 21:22:31 +0900 update version comment
+abfb757 2015-12-01 21:20:36 +0900 ignore Log/
+3846eee 2015-12-01 21:20:12 +0900 save to Log/ Folder
+73a2cb0 2015-12-01 21:11:58 +0900 rename utilLogger.py to old_utilLogger.py
+a9b639a 2015-12-01 21:10:24 +0900 update Usage
+7a78833 2015-12-01 21:08:52 +0900 use [0]*10 to declare a List
+7a9361c 2015-12-01 12:52:02 +0900 update test
+55f28d1 2015-12-01 12:51:09 +0900 add timestamp to each line
+34b5a54 2015-12-01 12:38:17 +0900 add todo
+66ab02c 2015-11-30 21:20:12 +0900 update todo
+b5083af 2015-11-30 21:12:43 +0900 add utilLogger.py from toLearn/ and update to v0.4
+a611dc1 2015-11-30 21:05:02 +0900 change array declaration to those using range()
+90e09b7 2015-11-30 20:54:27 +0900 refactor
+977c23d 2015-11-30 20:52:33 +0900 __init__() does not take saveto arg anymore
+9c9e42f 2015-11-30 12:56:04 +0900 add auto save feature
+ec87bf7 2015-11-30 12:44:01 +0900 ignore .log file
+d6d4af9 2015-11-30 12:43:37 +0900 1st commit
+cb217e0 2015-11-30 07:17:50 +0900 file overwrite snippet
+30f9e97 2015-11-30 07:17:35 +0900 ignore toLearn/Log
+1f0c1e7 2015-11-28 19:23:18 +0900 add 1st line for auto start
+74d5f8a 2015-11-27 07:12:41 +0900 1st commit
+1d8de6d 2015-11-27 07:12:29 +0900 1st commit
+6984345 2015-11-27 07:07:28 +0900 7seg led: add functions
+f93d866 2015-11-27 06:56:15 +0900 for coding on CentOS
+3c3d903 2015-11-26 22:21:58 +0900 dummyGPIO: update vesion comment
+e6128fd 2015-11-26 22:20:08 +0900 add output()
+fdb00be 2015-11-26 22:17:44 +0900 fix bug > GPIO.output()
+46bb73a 2015-11-26 21:51:44 +0900 test dips 3
+e58ddb1 2015-11-26 21:42:09 +0900 use dummyGPIO
+7097f4e 2015-11-26 21:41:52 +0900 add dummyGPIO
+de19bc9 2015-11-26 21:39:01 +0900 add dummyGPIO.py for CentOS
+83318a9 2015-11-26 21:15:59 +0900 prepare all onoff for 0..9
+c4e70ab 2015-11-26 15:15:16 +0900 working on disp3..5
+e584918 2015-11-26 15:06:40 +0900 fix possible bug
+15894d3 2015-11-26 07:18:32 +0900 working on 7seg led disp
+889757c 2015-11-26 07:05:35 +0900 2 dimension array snippet
+b2adb1c 2015-11-25 07:14:47 +0900 get last of ipadr and format to 00x
+bb5aa76 2015-11-25 06:50:01 +0900 get ipadrs
+af65af3 2015-11-24 21:09:02 +0900 LED on/off
+5c46a0e 2015-11-23 20:02:13 +0900 dummySerial: add close()
+4cb87b9 2015-11-21 19:48:55 +0900 tweak Serial timeout
+eb230a4 2015-11-21 18:29:58 +0900 WIP
+1491512 2015-11-21 18:27:53 +0900 WIP
+cacf93d 2015-11-21 18:25:38 +0900 WIP
+525d834 2015-11-21 18:14:25 +0900 trying to fix bug on monport
+6f4a66c 2015-11-21 18:09:38 +0900 update gitginore
+3440169 2015-11-21 08:18:43 +0900 Merge branch 'master' of https://github.com/yasokada/python-151113-lineMonitor
+d57a22c 2015-11-21 08:18:21 +0900 add bash test script to send UDP packet
+ebfebf7 2015-11-17 06:47:40 +0900 README.md : add UDP commands
+7b7eed5 2015-11-17 06:43:33 +0900 Update README.md
+f89ecb3 2015-11-16 22:36:44 +0900 update version comment
+4080600 2015-11-16 22:34:28 +0900 check comReopn() is errorneous or not
+6c63119 2015-11-16 22:31:25 +0900 try to fix com.read err after combaud change
+dceedeb 2015-11-16 22:26:47 +0900 add getBaudChange()
+c2e3f76 2015-11-16 22:23:45 +0900 fix bug > getCombaud() not getBaud()
+98b4125 2015-11-16 22:21:05 +0900 import comReopen
+1142ea4 2015-11-16 22:16:31 +0900 com.reopen()
+6e6b07d 2015-11-16 22:09:00 +0900 move version comment to linemonitor.py
+26f3f13 2015-11-16 22:07:12 +0900 typo
+1faf0fe 2015-11-16 21:47:00 +0900 set/get combaud
+31f3a3d 2015-11-16 21:43:35 +0900 update todo comment
+7c68eb7 2015-11-16 21:38:35 +0900 ignore .pyc
+1000f02 2015-11-16 21:36:34 +0900 update comment
+1a00458 2015-11-16 21:36:18 +0900 add getCombaud() / setCombaud()
+e15b8ad 2015-11-16 21:34:18 +0900 add todos
+f09c68a 2015-11-16 21:23:00 +0900 update todo comment
+64da37c 2015-11-16 21:22:27 +0900 stop symbolic link
+11fdd2e 2015-11-16 21:19:29 +0900 update usage comment
+a50b4e2 2015-11-16 21:15:26 +0900 update todo
+87d9b15 2015-11-16 21:15:04 +0900 linemonitor: read monip and monport setting
+7c6a1c5 2015-11-14 09:22:01 +0900 update todo
+486766b 2015-11-14 09:20:05 +0900 add comrelay()
+ef8a6d6 2015-11-14 09:15:50 +0900 WIP
+a0a2285 2015-11-14 09:14:42 +0900 dummySerial: change parameter name to go well with linemonitor.py calling
+3cad487 2015-11-14 09:04:15 +0900 linemonitor: fix bug
+36562d0 2015-11-14 09:02:49 +0900 WIP
+7272abd 2015-11-14 09:02:38 +0900 update todo
+6e7345b 2015-11-14 08:54:22 +0900 get command port
+1b9196d 2015-11-14 08:50:26 +0900 move main() to linemonitor.py
+6b73a84 2015-11-14 08:40:28 +0900 update todo
+62a847a 2015-11-14 08:22:54 +0900 update versio comment
+ef6591b 2015-11-14 08:21:49 +0900 add dummySerial
+0a62baa 2015-11-14 08:04:16 +0900 update todo
+663da62 2015-11-14 08:01:15 +0900 update todo
+cde1d98 2015-11-14 07:58:37 +0900 update todo
+0f9acac 2015-11-14 07:56:15 +0900 update todo
+11acf71 2015-11-14 07:53:23 +0900 update todo
+b8d41f2 2015-11-14 07:36:48 +0900 add todo
+a9a723e 2015-11-13 22:22:25 +0900 udpate version comment
+1df07b1 2015-11-13 22:19:34 +0900 WIP
+1d3a969 2015-11-13 22:08:33 +0900 WIP
+0b119eb 2015-11-13 22:03:27 +0900 WIP
+a11f7f0 2015-11-13 21:49:10 +0900 add mysetting: global variable
+ee87246 2015-11-13 21:43:42 +0900 WIP
+e3531c7 2015-11-13 21:41:01 +0900 add utilSetting
+aee7006 2015-11-13 21:36:22 +0900 WIP
+3675b8b 2015-11-13 21:24:27 +0900 WIP
+a9b6104 2015-11-13 21:11:06 +0900 WIP
+a0dc96f 2015-11-13 12:53:26 +0900 import 3 functions
+018e27d 2015-11-13 12:44:36 +0900 WIP
+211b41f 2015-11-13 12:37:53 +0900 1st commit
+a3a8e0a 2015-11-13 07:12:08 +0900 Initial commit
